@@ -67,13 +67,13 @@ def get_image_from_api(text):
 def main():
     # Set the background color to grey
     st.set_page_config(
-        page_title="Blog Generator by tl;dwr",
+        page_title="Bloggen by tl;dwr",
         page_icon="✍️",
         layout="wide",
         initial_sidebar_state="expanded",
     )
 
-    st.title("Blog Generator!")
+    st.title("BlogGen by Tl;DΣR!")
 
     # Input for language selection
     language = st.selectbox("Select Language:", ["English", "Spanish", "French", "Other"])
